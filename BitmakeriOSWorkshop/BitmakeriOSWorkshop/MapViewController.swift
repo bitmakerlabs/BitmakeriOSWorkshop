@@ -18,31 +18,31 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.mapView.delegate = self
-        self.locationManager.delegate = self
-        
-        // ask users permission
-        locationManager.requestWhenInUseAuthorization()
-        let status = CLLocationManager.authorizationStatus()
-        
-        if status == CLAuthorizationStatus.AuthorizedAlways || status == CLAuthorizationStatus.AuthorizedWhenInUse {
-            self.mapView.showsUserLocation = true
-        }
-        
-        // Set the GPS Location of the App
-        let location = CLLocationCoordinate2D(latitude: 43.64251, longitude: -79.387038)
-        let span = MKCoordinateSpanMake(0.001, 0.001)
-        let region = MKCoordinateRegion(center: location, span: span)
-        mapView.setRegion(region, animated: true)
-        
-        locationManager.startUpdatingLocation()
-        
-        //3
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = location
-        annotation.title = "CN Tower"
-        annotation.subtitle = "Toronto"
-        mapView.addAnnotation(annotation)
+//        self.mapView.delegate = self
+//        self.locationManager.delegate = self
+//        
+//        // ask users permission
+//        locationManager.requestWhenInUseAuthorization()
+//        let status = CLLocationManager.authorizationStatus()
+//        
+//        if status == CLAuthorizationStatus.AuthorizedAlways || status == CLAuthorizationStatus.AuthorizedWhenInUse {
+//            self.mapView.showsUserLocation = true
+//        }
+//        
+//        // Set the GPS Location of the App
+//        let location = CLLocationCoordinate2D(latitude: 43.64251, longitude: -79.387038)
+//        let span = MKCoordinateSpanMake(0.001, 0.001)
+//        let region = MKCoordinateRegion(center: location, span: span)
+//        mapView.setRegion(region, animated: true)
+//        
+//        locationManager.startUpdatingLocation()
+//        
+//        //3
+//        let annotation = MKPointAnnotation()
+//        annotation.coordinate = location
+//        annotation.title = "CN Tower"
+//        annotation.subtitle = "Toronto"
+//        mapView.addAnnotation(annotation)
         // Do any additional setup after loading the view.
     }
 
