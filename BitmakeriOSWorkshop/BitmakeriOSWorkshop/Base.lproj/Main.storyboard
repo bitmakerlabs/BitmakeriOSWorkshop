@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dZD-B0-abA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BitmakeriOSWorkshop" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,106 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtN-r5-L8V">
+                                <rect key="frame" x="105" y="416" width="122" height="30"/>
+                                <color key="backgroundColor" red="0.69564788509999997" green="0.64844398140000004" blue="0.1133954687" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Launch Map View">
+                                    <color key="titleShadowColor" red="1" green="0.87441984760202385" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="launchMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IIy-bp-1A0"/>
+                                    <segue destination="sUl-GI-MJf" kind="show" identifier="map" id="mjV-B7-834"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tV0-8b-oTS">
+                                <rect key="frame" x="329" y="416" width="166" height="30"/>
+                                <color key="backgroundColor" red="0.69564788509999997" green="0.64844398140000004" blue="0.1133954687" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Post Message to Twitter"/>
+                                <connections>
+                                    <action selector="postToTwitter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gdk-Ai-tIJ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-vI-IHL">
+                                <rect key="frame" x="175" y="115" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="Ce0-AX-uaM"/>
+                                    <constraint firstAttribute="width" secondItem="Pho-vI-IHL" secondAttribute="height" multiplier="1:1" id="Pam-SR-0gB"/>
+                                    <constraint firstAttribute="width" constant="250" id="XBI-1m-c28"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rtN-r5-L8V" firstAttribute="centerX" secondItem="tV0-8b-oTS" secondAttribute="centerX" constant="-246" id="Kzk-ee-coy"/>
+                            <constraint firstItem="Pho-vI-IHL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V3B-Yg-wt1"/>
+                            <constraint firstItem="rtN-r5-L8V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-134" id="Z9l-zs-rlC"/>
+                            <constraint firstItem="tV0-8b-oTS" firstAttribute="top" secondItem="Pho-vI-IHL" secondAttribute="bottom" constant="51" id="a4i-0k-s6X"/>
+                            <constraint firstItem="tV0-8b-oTS" firstAttribute="top" secondItem="rtN-r5-L8V" secondAttribute="bottom" constant="-30" id="dVu-aq-isI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rtN-r5-L8V" secondAttribute="bottom" constant="154" id="z3O-fN-Ti0"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gIK-75-K1T"/>
+                    <connections>
+                        <outlet property="myBitmakerImage" destination="Pho-vI-IHL" id="1u1-d1-F4n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1143" y="429"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="4EX-2q-qgR">
+            <objects>
+                <viewController id="sUl-GI-MJf" customClass="MapViewController" customModule="BitmakeriOSWorkshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wro-5j-9i2"/>
+                        <viewControllerLayoutGuide type="bottom" id="fsp-jG-6w2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="59O-Ot-TYk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="J0I-ot-VSK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PYM-TN-Izr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J0I-ot-VSK" firstAttribute="top" secondItem="59O-Ot-TYk" secondAttribute="top" id="0fy-6s-bZK"/>
+                            <constraint firstAttribute="trailing" secondItem="J0I-ot-VSK" secondAttribute="trailing" id="Qxr-sd-xIf"/>
+                            <constraint firstItem="J0I-ot-VSK" firstAttribute="bottom" secondItem="fsp-jG-6w2" secondAttribute="top" id="gh5-pN-Lg9"/>
+                            <constraint firstItem="J0I-ot-VSK" firstAttribute="leading" secondItem="59O-Ot-TYk" secondAttribute="leading" id="zDx-EC-LhW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="PYM-TN-Izr" id="1lQ-M0-lld"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VX8-Vw-e8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143" y="1238"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Thm-sy-4Im">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dZD-B0-abA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WQk-Gt-HIC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BAa-ru-cm1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ED-Md-xTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="331" y="1089"/>
         </scene>
     </scenes>
 </document>
