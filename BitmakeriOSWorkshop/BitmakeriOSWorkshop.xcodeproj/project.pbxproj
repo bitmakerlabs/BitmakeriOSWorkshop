@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		789503B71BCD994300606DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789503B61BCD994300606DDC /* AppDelegate.swift */; };
+		789503B91BCD994400606DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789503B81BCD994300606DDC /* ViewController.swift */; };
+		789503BC1BCD994400606DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789503BA1BCD994400606DDC /* Main.storyboard */; };
+		789503BE1BCD994400606DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789503BD1BCD994400606DDC /* Assets.xcassets */; };
+		789503C11BCD994400606DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789503BF1BCD994400606DDC /* LaunchScreen.storyboard */; };
+		789503CC1BCD994400606DDC /* BitmakeriOSWorkshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789503CB1BCD994400606DDC /* BitmakeriOSWorkshopTests.swift */; };
+		789503D71BCD994400606DDC /* BitmakeriOSWorkshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789503D61BCD994400606DDC /* BitmakeriOSWorkshopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		789503C81BCD994400606DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789503AB1BCD994300606DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789503B21BCD994300606DDC;
+			remoteInfo = BitmakeriOSWorkshop;
+		};
+		789503D31BCD994400606DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 789503AB1BCD994300606DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 789503B21BCD994300606DDC;
+			remoteInfo = BitmakeriOSWorkshop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		789503B31BCD994300606DDC /* BitmakeriOSWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitmakeriOSWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789503B61BCD994300606DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		789503B81BCD994300606DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		789503BB1BCD994400606DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789503BD1BCD994400606DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789503C01BCD994400606DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		789503C21BCD994400606DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789503C71BCD994400606DDC /* BitmakeriOSWorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakeriOSWorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789503CB1BCD994400606DDC /* BitmakeriOSWorkshopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmakeriOSWorkshopTests.swift; sourceTree = "<group>"; };
+		789503CD1BCD994400606DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789503D21BCD994400606DDC /* BitmakeriOSWorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakeriOSWorkshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		789503D61BCD994400606DDC /* BitmakeriOSWorkshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmakeriOSWorkshopUITests.swift; sourceTree = "<group>"; };
+		789503D81BCD994400606DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789503B01BCD994300606DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503C41BCD994400606DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503CF1BCD994400606DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		789503AA1BCD994300606DDC = {
+			isa = PBXGroup;
+			children = (
+				789503B51BCD994300606DDC /* BitmakeriOSWorkshop */,
+				789503CA1BCD994400606DDC /* BitmakeriOSWorkshopTests */,
+				789503D51BCD994400606DDC /* BitmakeriOSWorkshopUITests */,
+				789503B41BCD994300606DDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		789503B41BCD994300606DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789503B31BCD994300606DDC /* BitmakeriOSWorkshop.app */,
+				789503C71BCD994400606DDC /* BitmakeriOSWorkshopTests.xctest */,
+				789503D21BCD994400606DDC /* BitmakeriOSWorkshopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789503B51BCD994300606DDC /* BitmakeriOSWorkshop */ = {
+			isa = PBXGroup;
+			children = (
+				789503B61BCD994300606DDC /* AppDelegate.swift */,
+				789503B81BCD994300606DDC /* ViewController.swift */,
+				789503BA1BCD994400606DDC /* Main.storyboard */,
+				789503BD1BCD994400606DDC /* Assets.xcassets */,
+				789503BF1BCD994400606DDC /* LaunchScreen.storyboard */,
+				789503C21BCD994400606DDC /* Info.plist */,
+			);
+			path = BitmakeriOSWorkshop;
+			sourceTree = "<group>";
+		};
+		789503CA1BCD994400606DDC /* BitmakeriOSWorkshopTests */ = {
+			isa = PBXGroup;
+			children = (
+				789503CB1BCD994400606DDC /* BitmakeriOSWorkshopTests.swift */,
+				789503CD1BCD994400606DDC /* Info.plist */,
+			);
+			path = BitmakeriOSWorkshopTests;
+			sourceTree = "<group>";
+		};
+		789503D51BCD994400606DDC /* BitmakeriOSWorkshopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				789503D61BCD994400606DDC /* BitmakeriOSWorkshopUITests.swift */,
+				789503D81BCD994400606DDC /* Info.plist */,
+			);
+			path = BitmakeriOSWorkshopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789503B21BCD994300606DDC /* BitmakeriOSWorkshop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789503DB1BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshop" */;
+			buildPhases = (
+				789503AF1BCD994300606DDC /* Sources */,
+				789503B01BCD994300606DDC /* Frameworks */,
+				789503B11BCD994300606DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitmakeriOSWorkshop;
+			productName = BitmakeriOSWorkshop;
+			productReference = 789503B31BCD994300606DDC /* BitmakeriOSWorkshop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		789503C61BCD994400606DDC /* BitmakeriOSWorkshopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789503DE1BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshopTests" */;
+			buildPhases = (
+				789503C31BCD994400606DDC /* Sources */,
+				789503C41BCD994400606DDC /* Frameworks */,
+				789503C51BCD994400606DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789503C91BCD994400606DDC /* PBXTargetDependency */,
+			);
+			name = BitmakeriOSWorkshopTests;
+			productName = BitmakeriOSWorkshopTests;
+			productReference = 789503C71BCD994400606DDC /* BitmakeriOSWorkshopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		789503D11BCD994400606DDC /* BitmakeriOSWorkshopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789503E11BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshopUITests" */;
+			buildPhases = (
+				789503CE1BCD994400606DDC /* Sources */,
+				789503CF1BCD994400606DDC /* Frameworks */,
+				789503D01BCD994400606DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				789503D41BCD994400606DDC /* PBXTargetDependency */,
+			);
+			name = BitmakeriOSWorkshopUITests;
+			productName = BitmakeriOSWorkshopUITests;
+			productReference = 789503D21BCD994400606DDC /* BitmakeriOSWorkshopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789503AB1BCD994300606DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = KBryan;
+				TargetAttributes = {
+					789503B21BCD994300606DDC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					789503C61BCD994400606DDC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 789503B21BCD994300606DDC;
+					};
+					789503D11BCD994400606DDC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 789503B21BCD994300606DDC;
+					};
+				};
+			};
+			buildConfigurationList = 789503AE1BCD994300606DDC /* Build configuration list for PBXProject "BitmakeriOSWorkshop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 789503AA1BCD994300606DDC;
+			productRefGroup = 789503B41BCD994300606DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789503B21BCD994300606DDC /* BitmakeriOSWorkshop */,
+				789503C61BCD994400606DDC /* BitmakeriOSWorkshopTests */,
+				789503D11BCD994400606DDC /* BitmakeriOSWorkshopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789503B11BCD994300606DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789503C11BCD994400606DDC /* LaunchScreen.storyboard in Resources */,
+				789503BE1BCD994400606DDC /* Assets.xcassets in Resources */,
+				789503BC1BCD994400606DDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503C51BCD994400606DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503D01BCD994400606DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789503AF1BCD994300606DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789503B91BCD994400606DDC /* ViewController.swift in Sources */,
+				789503B71BCD994300606DDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503C31BCD994400606DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789503CC1BCD994400606DDC /* BitmakeriOSWorkshopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		789503CE1BCD994400606DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789503D71BCD994400606DDC /* BitmakeriOSWorkshopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		789503C91BCD994400606DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789503B21BCD994300606DDC /* BitmakeriOSWorkshop */;
+			targetProxy = 789503C81BCD994400606DDC /* PBXContainerItemProxy */;
+		};
+		789503D41BCD994400606DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 789503B21BCD994300606DDC /* BitmakeriOSWorkshop */;
+			targetProxy = 789503D31BCD994400606DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		789503BA1BCD994400606DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789503BB1BCD994400606DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		789503BF1BCD994400606DDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789503C01BCD994400606DDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789503D91BCD994400606DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789503DA1BCD994400606DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789503DC1BCD994400606DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitmakeriOSWorkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		789503DD1BCD994400606DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitmakeriOSWorkshop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		789503DF1BCD994400606DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitmakeriOSWorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmakeriOSWorkshop.app/BitmakeriOSWorkshop";
+			};
+			name = Debug;
+		};
+		789503E01BCD994400606DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitmakeriOSWorkshopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmakeriOSWorkshop.app/BitmakeriOSWorkshop";
+			};
+			name = Release;
+		};
+		789503E21BCD994400606DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitmakeriOSWorkshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitmakeriOSWorkshop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		789503E31BCD994400606DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BitmakeriOSWorkshopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.3einteractive.BitmakeriOSWorkshopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BitmakeriOSWorkshop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789503AE1BCD994300606DDC /* Build configuration list for PBXProject "BitmakeriOSWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789503D91BCD994400606DDC /* Debug */,
+				789503DA1BCD994400606DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789503DB1BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789503DC1BCD994400606DDC /* Debug */,
+				789503DD1BCD994400606DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		789503DE1BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789503DF1BCD994400606DDC /* Debug */,
+				789503E01BCD994400606DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		789503E11BCD994400606DDC /* Build configuration list for PBXNativeTarget "BitmakeriOSWorkshopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789503E21BCD994400606DDC /* Debug */,
+				789503E31BCD994400606DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 789503AB1BCD994300606DDC /* Project object */;
+}
